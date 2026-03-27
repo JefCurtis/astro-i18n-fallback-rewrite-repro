@@ -15,5 +15,5 @@ export default defineConfig({
             fallbackType: 'rewrite',
         },
     },
-    adapter: node({ mode: 'middleware' }),
+    adapter: node({ mode: 'standalone' }),
 })
